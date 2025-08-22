@@ -77,7 +77,7 @@ export async function POST(req: Request) {
         message: "Something went wrong",
         ok: false,
       },
-      {}
+      { status: 500 }
     );
   }
 }
