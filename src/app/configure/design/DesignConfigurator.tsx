@@ -248,7 +248,7 @@ const DesignConfigurator = ({
                             `bg-${color.tw}`,
                             "h-8 w-8 rounded-full border border-black border-opacity-10"
                           )}
-                        ></span>
+                        />
                       </RadioGroup.Option>
                     ))}
                   </div>

@@ -42,10 +42,8 @@ export const ourFileRouter = {
             croppedImageUrl: file.url,
           },
         });
-        return { configId: updateConfiguration };
+        return { configId: updateConfiguration.id };
       }
-
-      return { configId };
     }),
 } satisfies FileRouter;
 
